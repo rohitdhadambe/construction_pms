@@ -17,7 +17,7 @@ session_start();
 		z-index: 1000px;
 	}
 	#main-bod{
-		    background: url(images/construction-cover.jpg);
+		     background: url(images/coal2.jpg); 
 		    background-repeat: no-repeat;
 			background-size: cover;
 			display:flex;

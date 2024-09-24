@@ -5,7 +5,7 @@
              
                   <div class="modal-header"> 
                      <h4 class="modal-title" id='head'>
-                     <i class=""></i> New Employee
+                     <i class=""></i> New Researcher
                      </h4> 
                  
                   </div> 
@@ -67,6 +67,14 @@
         </div>
 
         <div class="form-group" id="form-login">
+          <label class="col-sm-4 control-label">Project name (Working):</label>
+          <div class="col-sm-5">
+            <input class="form-control text-right"  id="" name="cn" type="text" maxlength="11"  required>
+          </div>
+        </div>
+
+
+        <div class="form-group" id="form-login">
           <label class="col-sm-4 control-label">Address:</label>
           <div class="col-sm-8">
             <textarea class="form-control" rows="2"  id="" name="address" type="text"  required></textarea> 
@@ -80,6 +88,7 @@
           </div>
         </div>
 
+       
         <div class="form-group" id="form-login">
           <label class="col-sm-4 control-label">Status:</label>
           <div class="col-sm-8">

@@ -64,12 +64,10 @@ $row= mysqli_fetch_assoc($emp_query);
 		<label class="control-label">
 		<?php 
 		if($row['proposed_project'] == '1'){
-			echo 'Building';
+			echo 'S&D';
 		}if($row['proposed_project'] == '2'){
-			echo 'House';
-		}elseif($row['proposed_project'] == '3'){
-			echo 'Highways';
-		}	
+			echo 'R&D';
+		}
 		 ?></label>
 		
 	</div>

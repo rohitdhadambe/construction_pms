@@ -360,18 +360,18 @@
           <label class="col-sm-4 control-label">Proposed Project:</label>
           <div class="col-sm-8">
            <select type="text" class="form-control input-sm" style="text-transform:capitalize" autocomplete="off" name="p_type" id="p_type" onchange="div_field()" required/>
-          <option id="p_typ" value="<?php echo $prow['proposed_project'] ?>" >
+          <!-- <option id="p_typ" value="<?php echo $prow['proposed_project'] ?>" >
             <?php if($prow['proposed_project'] == '1'){
               echo 'Building';
               }elseif ($prow['proposed_project'] == '2') {
                 echo 'House';
               }elseif ($prow['proposed_project'] == '3') {
                 echo 'Highways';
-              } ?>
-          </option>
-          <option value="1">Building</option>
-          <option value="2">House</option>
-          <option value="3">Highways</option>
+              } ?> 
+          </option>-->
+          <option value="1">R&D</option>
+          <option value="2">S&D</option>
+
           </select>
           </div>
         </div>

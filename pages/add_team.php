@@ -7,7 +7,7 @@
 		<div class="form-group">
 			<div class="col-sm-2"><label for="">Foreman:</label></div>
 			<div class="col-sm-10">
-			<select name="fid" id="" class="form-control chosen-select" data-placeholder="Select Employee">
+			<select name="fid" id="" class="form-control chosen-select" data-placeholder="Select ">
 			<option></option>
 				<?php
 				$fquery=mysqli_query($conn,"SELECT *,concat(lastname,', ',firstname,' ',midname) as name from employee natural join position where position.position LIKE 'foreman%' and (employee.eid NOT IN (SELECT  project_team.eid from project_team ) or eid not in (SELECT team_member.eid from team_member)) ");
@@ -22,7 +22,7 @@
 		<div class="form-group">
 			<div class="col-sm-2"><label for="">Member:</label></div>
 			<div class="col-sm-10">
-			<select name="mid" id="mid" class="form-control chosen-select" data-placeholder="Select Employee">
+			<select name="mid" id="mid" class="form-control chosen-select" data-placeholder="Select ">
 			<option></option>
 				<?php
 				$mquery=mysqli_query($conn,"SELECT *,concat(lastname,', ',firstname,' ',midname) as name from employee where employee.eid NOT IN (SELECT  project_team.eid from project_team ) or eid not in (SELECT team_member.eid from team_member) ");

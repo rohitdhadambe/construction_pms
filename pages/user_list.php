@@ -59,9 +59,8 @@
   <div class="alert alert-success" id="msg"><i class="fa fa-check"></i> Data successfully added. </div>
     <form id="user_form" method="POST">
     <div class="form-group">
-    <div class="col-sm-4 text-right"><label for="emp">Employee:</label></div>
     <div class="col-sm-8">
-    <select name="eid" id="emp" class="form-control chosen-select" data-placeholder="Select Employee">
+    <select name="eid" id="emp" class="form-control chosen-select" data-placeholder="Select ">
     <option value=""></option>
       <?php
     include '../includes/db.php';

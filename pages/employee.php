@@ -1,6 +1,6 @@
 
 <div class="col-md-12">
-	<h4>List of Employee's</h4>
+	<h4>List of Research's</h4>
 
 <hr style="border-bottom:1px solid black"></hr>
 </div>
@@ -56,7 +56,7 @@
 </div>
 <div class="col-md-2">
 	
-	<a class="col-sm-12 btn btn-md btn-info"  href="#new_employee" data-toggle="modal"><center><i class="fa fa-plus"></i>New Employee</center></a>
+	<a class="col-sm-12 btn btn-md btn-info"  href="#new_employee" data-toggle="modal"><center><i class="fa fa-plus"></i>New Researcher</center></a>
 </div>
 <div id="retCode1"></div>
  <?php   include '../includes/add_modal.php'; ?>

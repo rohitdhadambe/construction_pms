@@ -75,7 +75,7 @@ CREATE TABLE `employee` (
 INSERT INTO `employee` (`eid`, `lastname`, `firstname`, `midname`, `bday`, `contact_no`, `address`, `pid`, `status`, `gender`, `ecode`, `date_added`, `e_pic`, `io`) VALUES
 (1, 'Administrator', 'Admin', '', '1987-06-23', '12345678', 'Sample', 1, 'Single', 'Male', '78945', '0000-00-00', '9642_avatar.jpg', 1),
 (2, 'Smith', 'John', '', '1993-06-23', '1321', 'Sample', 1, 'Single', 'Male', '78946', '2020-10-05', 'no_image.jpg', 1),
-(3, 'Wilson', 'George', '', '1990-07-11', '+54545', 'Sample', 2, 'Married', 'Male', '78947', '2020-10-05', 'no_image.jpg', 1);
+
 
 -- --------------------------------------------------------
 

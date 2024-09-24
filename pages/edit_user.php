@@ -2,7 +2,7 @@
   <?php
     include '../includes/db.php';
    
-      $query2=  mysqli_query($conn, "SELECT *,CONCAT(lastname,', ',firstname,' ',midname) as name,users.io as status FROM users left join employee on users.eid = employee.eid where uid = '".$_GET['uid']."' ");
+       $query2=  mysqli_query($conn, "SELECT *,CONCAT(lastname,', ',firstname,' ',midname) as name,users.io as status FROM users left join employee on users.eid = employee.eid where uid = '".$_GET['uid']."' ");
        $row2 = mysqli_fetch_assoc($query2);  
     ?>
   <hr style="border-bottom:1px solid grey"></hr>

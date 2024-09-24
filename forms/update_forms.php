@@ -67,7 +67,7 @@ if($action == 'division'){
 	$p_type = $_POST['p_type'];
 
 	
-	if($query = mysqli_query($conn,"UPDATE project_division set division = '$division', project_type = '$p_type' where pd_id = '$id'")){
+	if($query = mysqli_query($conn,"UPDATE project_division set division = '$', project_type = '$p_type' where pd_id = '$id'")){
 		include '../includes/msg_box.php';
 		echo '<script>$("#msg").html("Data successfully updated.")</script>';
 	}else{
