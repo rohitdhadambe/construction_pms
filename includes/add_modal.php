@@ -69,7 +69,7 @@
         <div class="form-group" id="form-login">
           <label class="col-sm-4 control-label">Project name (Working):</label>
           <div class="col-sm-5">
-            <input class="form-control text-right"  id="" name="cn" type="text" maxlength="11"  required>
+            <input class="form-control text-right"  id="" name="cn" type="text"   required>
           </div>
         </div>
 

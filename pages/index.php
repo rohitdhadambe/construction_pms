@@ -15,7 +15,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href=""><b>Project Managent System for coal</b></a>
+                <a class="navbar-brand" href=""><b>Project Managent System for Ministry of coal...!</b></a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
